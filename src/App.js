@@ -78,7 +78,6 @@ money for look, and some game modes.
 
       up to 8 players
 
-UX/UI Uptown
 Security Square
 AI Avenue, Acres, Abbey, Arbor
 Blockchain Boulevard
@@ -91,7 +90,6 @@ Websocket Way
 Object-Oriented Oasis
 Testing Terrace
 Version Control Valley
-Optimization Oasis
 Template Terrace
 Responsive Road
 Scalability Street
