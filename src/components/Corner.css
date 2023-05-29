@@ -1,0 +1,26 @@
+.Corner {
+    height: 98px;
+    width: 98px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+/* .PropertyTop {
+    height: 20px;
+    width: 60px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: red;
+}
+
+.PropertyBottom {
+    height: 80px;
+    width: 60px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightblue;
+    font-weight: bold;
+} */

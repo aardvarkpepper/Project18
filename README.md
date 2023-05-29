@@ -1,3 +1,33 @@
+# Board Game Resume Project Ish
+
+Copy and paste comments from other files here.  Remember to do again at end of project.
+
+## locationData
+
+Object keys are snake_case instead of camelCase, for integration with SQL database.
+(It is assumed SQL database will not have case sensitivity on.)
+
+locationData contains data specific to locations, but generally not data that could be expressed
+at a higher level of abstraction.
+E.g. Algorithm Alley is not shown here to be in group "a"; that is tracked at another level.
+If a player owns all skills in the "a" group, cost to other players doubling is not shown here.
+
+When actions are taken in other parts of the game, data in locationData may be updated.
+E.g. a player buys a property in group "a"; as part of that process the game checks if all other
+group "a" properties are owned by the same player, and if so upgrades "synergy".  When a property
+in group "a" is sold, "synergy" is downgraded if appropriate.
+
+Similarly, when a proficiency investment is attempted, a check is made to see if the appropriate 
+property has sufficient synergy.  If so, and other conditions met (like cost paid and no auction)
+then "proficiency_level" is upgraded.
+
+## Later Sturcture Notes
+
+Adding another board game setup requires addition to database and/or state switch.  That's . . . well.
+Remember, add history and game record and commentary.
+ML
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

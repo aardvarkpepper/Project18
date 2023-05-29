@@ -1,0 +1,42 @@
+.ColorProperty {
+    height: 98px;
+    width: 58px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: small;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.ColorPropertyTop {
+    height: 16px;
+    width: 56px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: red;
+}
+
+.ColorPropertyBottom {
+    height: 78px;
+    width: 56px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightblue;
+    font-weight: bold;
+
+    /* display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-rows: repeat(1fr); */
+    position: relative;
+}
+
+.ColorPropertyBottomBottom {
+        /* grid-area: e; */
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+}
