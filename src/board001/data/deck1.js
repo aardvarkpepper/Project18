@@ -12,18 +12,19 @@ https://www.freecodecamp.org/news/algorithms-and-data-structures-free-treehouse-
 https://www.programiz.com/dsa
 
 Arrays, linked lists, stacks, queues, trees, graphs, hash tables, heaps, tries, sets, maps.  Some not used.
+Radix tree, trie
 */
 const deck1 = [
     {
         name: "Array",
-        card_text: "Accidentally attempt to use different data type in an array.  Pay $50 to debug.",
+        card_text: "Accidentally attempt to use different data types in an array.  Pay $50 to debug.",
         image: "placeholderGraphicDeck1/array.jpg",
         card_description: "An array is a linear data structure. A collection of same-type data in contiguous memory locations.  Calculation of element position by applying offset to memory location of first element in array.  Fixed number of nodes.  Underlying data structure for stacks and queues.  Used in bubble, merge, and quicksort.",
         link: "https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-array-data-structure/",
     },
     {
         name: "Linked List",
-        card_text: "Use a linked list's pointer references to improve performance of an algorithm that frequently inserts and delets items in a large data collection. Collect $10 from each player.",
+        card_text: "Use a linked list pointer references to improve performance of an algorithm that frequently inserts and deletes items in a large data collection. Collect $10 from each player.",
         image: "placeholderGraphicDeck1/linkedList.jpg",
         card_description: "Linear data structure.  Similar to array, but elements not stored in contiguous memory and number of nodes not fixed.  Insertion and deletion faster than array.  Elements linked using pointers.",
         link: "https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-linked-list/",
@@ -37,14 +38,14 @@ const deck1 = [
     },
     {
         name: "Queue",
-        card_text: "Stuck in queue.  Pay $100",
+        card_text: "Spend $100 on street vendor food while stuck in queue.",
         image: "placeholderGraphicDeck1/queue.jpg",
         card_description: "A queue is a linear data structure, items inserted one end, deleted other end. FIFO (First In First Out).",
         link: "https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-queue/",
     },
     {
         name: "Binary Tree",
-        card_text: "Find a near-ideal balanced use case for binary tree.  Collect $10",
+        card_text: "Find a good balanced use case for binary tree.  Collect $10",
         image: "placeholderGraphicDeck1/binaryTree.jpg",
         card_description: "Binary tree is a hierarchical data structure, each node at most two children.  May be unbalanced, space inefficient with pointer references, slow if many with only one child node.  Balancing algorithms add overhead.",
         link: "https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-binary-tree/",
@@ -72,7 +73,7 @@ const deck1 = [
     },
     {
         name: "String",
-        card_text: "Use versatile string data structures to Get Out of Debugging Free.  This card may be kept until used, or sold to another player.",
+        card_text: "Use versatile string data structures to Get Out of Debugging Free.  This card may be kept until used or sold to another player.",
         image: "placeholderGraphicDeck1/string.jpg",
         card_description: "Strings are widely supported, allowing string manipulation operations.",
         link: "https://www.geeksforgeeks.org/introduction-to-strings-data-structure-and-algorithm-tutorials/",
@@ -107,7 +108,7 @@ const deck1 = [
     },
     {
         name: "Circular Queue",
-        card_text: "Solve non-usable empty space after insertion/deletion issue of normal queues.  Collect $20.",
+        card_text: "Solve non-usable empty space after insertion/deletion issue of noncircular queues.  Collect $20.",
         image: "placeholderGraphicDeck1/circularQueue.jpg",
         card_description: "With circular queue, modulo division with queue size and two pointers allow efficient use of memory",
         link: "https://www.programiz.com/dsa/circular-queue",
